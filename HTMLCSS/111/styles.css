@@ -1,0 +1,7 @@
+
+  #checkbox:checked + #checked-image {
+    display: block;
+  }
+  #checked-image {
+    display: none;
+  }
