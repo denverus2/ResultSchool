@@ -15,3 +15,4 @@ function sliderPlugIn(activeSlide = 2) {
 }
 
 sliderPlugIn(3)
+
