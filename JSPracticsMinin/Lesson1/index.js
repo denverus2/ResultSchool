@@ -26,7 +26,7 @@ let fruits = [
 ]
 const toHTML = (fruit) => `
 <div class="col">
-          <div class="card">
+          <div class="card"; style="width: 35VH">
             <img
               class="card-img-top"
               style="height: 300px"
@@ -59,28 +59,6 @@ const priceModal = $.modal({
     },
   ],
 })
-
-// const confirmModal = $.modal({
-//   title: 'Вы уверены?',
-//   closable: true,
-//   width: '400px',
-//   footerButtons: [
-//     {
-//       text: 'Отменить',
-//       type: 'secondary',
-//       handler() {
-//         confirmModal.close()
-//       },
-//     },
-//     {
-//       text: 'Удалить',
-//       type: 'danger',
-//       handler() {
-//         confirmModal.close()
-//       },
-//     },
-//   ],
-// })
 
 document.addEventListener('click', (event) => {
   event.preventDefault()
