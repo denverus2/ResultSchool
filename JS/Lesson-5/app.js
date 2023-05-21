@@ -70,7 +70,10 @@ function createRandomCircle() {
   circle.style.height = `${size}px`
   circle.style.top = `${y}px`
   circle.style.left = `${x}px`
-  circle.style.background = getRandomColor()
+  
+
+  // circle.style.background = getRandomColor()
+  circle.style.background = `rgb(${getRandomNumber(0, 255)} ${getRandomNumber(0,255)} ${getRandomNumber(0, 255)})`
 
   board.append(circle)
 }
